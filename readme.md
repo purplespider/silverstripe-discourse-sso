@@ -38,6 +38,7 @@ dev/build?flush=1
     * Using [Discouse API](https://meta.discourse.org/t/discourseconnect-official-single-sign-on-for-discourse-sso/13045#heading--logoff).
     * Or use something like https://github.com/johnmap/discourse-sso-logout
 * Customise Silverstripe log in message:
+**app/lang/en.yml**
 ````yml
 en:
   PurpleSpider\DiscourseSSO\DiscourseSSOEndpoint:
@@ -81,7 +82,7 @@ class DiscourseSSOEndpointExtension extends DataExtension
 }
 ````
 
-_config/discoursesso.yml
+**_config/discoursesso.yml**
 ````yml
 PurpleSpider\DiscourseSSO\DiscourseSSOEndpoint:
   extensions:
