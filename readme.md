@@ -28,7 +28,7 @@ dev/build?flush=1
 3. Configure [DiscourseConnect](https://meta.discourse.org/t/discourseconnect-official-single-sign-on-for-discourse-sso/13045) in your Discourse Admin.
   * Settings > Login > `enable discourse connect`: `Enabled`
   * Settings > Login > `discourse connect url`: `https://example.com/discourse/sso` (Replace `example.com` with your Silverstripe site's domain.)
-  * Settings > Login > `discourse_connect_secret`: Set to the SAME random sting from your Silverstripe config above.
+  * Settings > Login > `discourse_connect_secret`: Set to the SAME random string from your Silverstripe config above.
 
 ## Optional Customisation
 
