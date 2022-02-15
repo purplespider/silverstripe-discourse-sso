@@ -1,6 +1,6 @@
 # Silverstripe SSO for Discourse (DiscourseConnect)
 
-Allows users to sign in to Discourse with user accounts on your Silverstripe based website.
+Allows users to sign in to Discourse with user accounts on your [Silverstripe](https://www.silverstripe.org/) based website.
 
 Note: This becomes the **only** way to log in to Discourse. To add a "Log in as..." button instead, look into OAuth, instead of SSO ([DiscourseConnect](https://meta.discourse.org/t/discourseconnect-official-single-sign-on-for-discourse-sso/13045)).
 
