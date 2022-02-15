@@ -88,3 +88,6 @@ PurpleSpider\DiscourseSSO\DiscourseSSOEndpoint:
   extensions:
     - YOURNAMESPACE\DiscourseSSOEndpointExtension
 ````
+
+# Thanks
+Many thanks to [Colin Viebrock](https://github.com/cviebrock) for their [Discourse Single-Sign-On Helper for PHP](https://github.com/cviebrock/discourse-php) module which does all the hard work.
