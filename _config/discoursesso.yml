@@ -1,0 +1,9 @@
+---
+Name: discoursessoroutes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'discourse': 'PurpleSpider\DiscourseSSO\DiscourseSSOEndpoint'

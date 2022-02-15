@@ -1,0 +1,19 @@
+{
+    "name": "purplespider/silverstripe-discourse-sso",
+    "description": "Log in to Discourse with Silverstripe member accounts",
+    "type": "silverstripe-vendormodule",
+    "homepage": "http://github.com/purplespider/silverstripe-discourse-sso",
+    "keywords": ["silverstripe", "discourse", "sso"],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "James Cocker",
+        "email": "ssmodules@pswd.biz"
+    }],
+    "support": {
+        "issues": "http://github.com/purplespider/silverstripe-discourse-sso/issues"
+    },
+    "require": {
+        "silverstripe/cms": "^4",
+        "cviebrock/discourse-php": "^0.9.3"
+    }
+}
